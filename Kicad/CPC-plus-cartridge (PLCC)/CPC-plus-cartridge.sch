@@ -1,0 +1,740 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Sassa:Amstrad-CPC-plus-cartridge J1
+U 1 1 5F921358
+P 2900 4000
+F 0 "J1" H 2900 5115 50  0000 C CNN
+F 1 "Amstrad-CPC-plus-cartridge" H 2900 5024 50  0000 C CNN
+F 2 "Sassa:Amstrad-CPC-plus-cartridge" H 2900 4450 50  0001 C CNN
+F 3 "http://www.cpcwiki.eu/index.php/Connector:Cartridge_Slot_(CPC_Plus_only)" H 2900 4450 50  0001 C CNN
+	1    2900 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0101
+U 1 1 5F921C4B
+P 2500 3150
+F 0 "#PWR0101" H 2500 3000 50  0001 C CNN
+F 1 "+5V" V 2515 3278 50  0000 L CNN
+F 2 "" H 2500 3150 50  0001 C CNN
+F 3 "" H 2500 3150 50  0001 C CNN
+	1    2500 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR0102
+U 1 1 5F922133
+P 3300 3150
+F 0 "#PWR0102" H 3300 3000 50  0001 C CNN
+F 1 "+5V" V 3315 3278 50  0000 L CNN
+F 2 "" H 3300 3150 50  0001 C CNN
+F 3 "" H 3300 3150 50  0001 C CNN
+	1    3300 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 5F922A1D
+P 2500 4850
+F 0 "#PWR0103" H 2500 4600 50  0001 C CNN
+F 1 "GND" V 2505 4722 50  0000 R CNN
+F 2 "" H 2500 4850 50  0001 C CNN
+F 3 "" H 2500 4850 50  0001 C CNN
+	1    2500 4850
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 5F922E14
+P 3300 4750
+F 0 "#PWR0104" H 3300 4500 50  0001 C CNN
+F 1 "GND" V 3305 4622 50  0000 R CNN
+F 2 "" H 3300 4750 50  0001 C CNN
+F 3 "" H 3300 4750 50  0001 C CNN
+	1    3300 4750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 5F9234B5
+P 3300 4850
+F 0 "#PWR0105" H 3300 4600 50  0001 C CNN
+F 1 "GND" V 3305 4722 50  0000 R CNN
+F 2 "" H 3300 4850 50  0001 C CNN
+F 3 "" H 3300 4850 50  0001 C CNN
+	1    3300 4850
+	0    -1   -1   0   
+$EndComp
+Text Label 2500 3250 2    50   ~ 0
+CLK4
+Text Label 2500 4150 2    50   ~ 0
+_CE
+Text Label 2500 4750 2    50   ~ 0
+CCLR
+Text Label 3300 4650 0    50   ~ 0
+SIN
+Text Label 3300 4350 0    50   ~ 0
+D0
+Text Label 3300 4450 0    50   ~ 0
+D1
+Text Label 3300 4550 0    50   ~ 0
+D2
+Text Label 2500 4650 2    50   ~ 0
+D3
+Text Label 2500 4550 2    50   ~ 0
+D4
+Text Label 2500 4450 2    50   ~ 0
+D5
+Text Label 2500 4350 2    50   ~ 0
+D6
+Text Label 2500 4250 2    50   ~ 0
+D7
+Text Label 3300 4250 0    50   ~ 0
+A0
+Text Label 3300 4150 0    50   ~ 0
+A1
+Text Label 3300 4050 0    50   ~ 0
+A2
+Text Label 3300 3950 0    50   ~ 0
+A3
+Text Label 2500 3950 2    50   ~ 0
+A4
+Text Label 2500 3850 2    50   ~ 0
+A5
+Text Label 2500 3750 2    50   ~ 0
+A6
+Text Label 2500 3650 2    50   ~ 0
+A7
+Text Label 3300 3650 0    50   ~ 0
+A8
+Text Label 3300 3750 0    50   ~ 0
+A9
+Text Label 2500 4050 2    50   ~ 0
+A10
+Text Label 3300 3850 0    50   ~ 0
+A11
+Text Label 2500 3550 2    50   ~ 0
+A12
+Text Label 3300 3550 0    50   ~ 0
+A13
+Text Label 3300 3450 0    50   ~ 0
+A14
+Text Label 2500 3450 2    50   ~ 0
+A15
+Text Label 2500 3350 2    50   ~ 0
+A16
+Text Label 3300 3350 0    50   ~ 0
+A17
+Text Label 3300 3250 0    50   ~ 0
+A18
+$Comp
+L Sassa:XC9536XL-VQ44 U2
+U 1 1 5FD74C15
+P 8400 4050
+F 0 "U2" H 7850 5450 50  0000 C CNN
+F 1 "XC9536XL-VQ44" H 7900 5350 50  0000 C CNN
+F 2 "Package_QFP:LQFP-44_10x10mm_P0.8mm" H 8400 4050 50  0001 C CNN
+F 3 "xilinx/xc9536xl.pdf" H 8400 4050 50  0001 C CNN
+	1    8400 4050
+	1    0    0    -1  
+$EndComp
+Text Label 9100 3550 0    50   ~ 0
+A0
+Text Label 9100 3650 0    50   ~ 0
+A1
+Text Label 9100 4150 0    50   ~ 0
+A2
+Text Label 9100 4350 0    50   ~ 0
+A3
+Text Label 9100 2850 0    50   ~ 0
+A4
+Text Label 7700 3150 2    50   ~ 0
+A5
+Text Label 7700 3250 2    50   ~ 0
+A6
+Text Label 7700 3350 2    50   ~ 0
+A7
+Text Label 9100 4050 0    50   ~ 0
+_CE
+Text Label 9100 3450 0    50   ~ 0
+SIN
+Text Label 7700 3050 2    50   ~ 0
+CLK4
+Text Label 9100 3350 0    50   ~ 0
+CCLR
+Wire Wire Line
+	8300 2650 8400 2650
+Connection ~ 8400 2650
+Wire Wire Line
+	8400 2650 8500 2650
+Wire Wire Line
+	8300 5450 8400 5450
+Connection ~ 8400 5450
+Wire Wire Line
+	8400 5450 8500 5450
+$Comp
+L power:+3.3V #PWR09
+U 1 1 5FD809C6
+P 8300 2650
+F 0 "#PWR09" H 8300 2500 50  0001 C CNN
+F 1 "+3.3V" H 8315 2823 50  0000 C CNN
+F 2 "" H 8300 2650 50  0001 C CNN
+F 3 "" H 8300 2650 50  0001 C CNN
+	1    8300 2650
+	1    0    0    -1  
+$EndComp
+Connection ~ 8300 2650
+$Comp
+L power:GND #PWR010
+U 1 1 5FD81A72
+P 8300 5450
+F 0 "#PWR010" H 8300 5200 50  0001 C CNN
+F 1 "GND" H 8305 5277 50  0000 C CNN
+F 2 "" H 8300 5450 50  0001 C CNN
+F 3 "" H 8300 5450 50  0001 C CNN
+	1    8300 5450
+	1    0    0    -1  
+$EndComp
+Connection ~ 8300 5450
+$Comp
+L Connector_Generic:Conn_01x06 J2
+U 1 1 5FD82E79
+P 9900 5250
+F 0 "J2" H 9980 5242 50  0000 L CNN
+F 1 "JTAG" H 9980 5151 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 9900 5250 50  0001 C CNN
+F 3 "~" H 9900 5250 50  0001 C CNN
+	1    9900 5250
+	1    0    0    1   
+$EndComp
+Text Label 9700 5150 2    50   ~ 0
+TCK
+Text Label 9700 5250 2    50   ~ 0
+TDO
+Text Label 9700 4950 2    50   ~ 0
+TDI
+Text Label 9700 5050 2    50   ~ 0
+TMS
+$Comp
+L power:GND #PWR014
+U 1 1 5FD85216
+P 9700 5350
+F 0 "#PWR014" H 9700 5100 50  0001 C CNN
+F 1 "GND" V 9705 5222 50  0000 R CNN
+F 2 "" H 9700 5350 50  0001 C CNN
+F 3 "" H 9700 5350 50  0001 C CNN
+	1    9700 5350
+	0    1    1    0   
+$EndComp
+Text Label 9100 4950 0    50   ~ 0
+TDI
+Text Label 9100 5050 0    50   ~ 0
+TMS
+Text Label 9100 5150 0    50   ~ 0
+TCK
+Text Label 9100 5250 0    50   ~ 0
+TDO
+$Comp
+L Memory_Flash:SST39SF040 U1
+U 1 1 5FD882D4
+P 5650 4050
+F 0 "U1" H 5300 5450 50  0000 C CNN
+F 1 "SST39SF040" H 5350 5350 50  0000 C CNN
+F 2 "Package_LCC:PLCC-32_11.4x14.0mm_P1.27mm" H 5650 4350 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/25022B.pdf" H 5650 4350 50  0001 C CNN
+	1    5650 4050
+	1    0    0    -1  
+$EndComp
+Text Label 6250 2850 0    50   ~ 0
+D0
+Text Label 6250 2950 0    50   ~ 0
+D1
+Text Label 6250 3050 0    50   ~ 0
+D2
+Text Label 6250 3150 0    50   ~ 0
+D3
+Text Label 6250 3250 0    50   ~ 0
+D4
+Text Label 6250 3350 0    50   ~ 0
+D5
+Text Label 6250 3450 0    50   ~ 0
+D6
+Text Label 6250 3550 0    50   ~ 0
+D7
+Text Label 5050 2850 2    50   ~ 0
+A0
+Text Label 5050 2950 2    50   ~ 0
+A1
+Text Label 5050 3050 2    50   ~ 0
+A2
+Text Label 5050 3150 2    50   ~ 0
+A3
+Text Label 5050 3250 2    50   ~ 0
+A4
+Text Label 5050 3350 2    50   ~ 0
+A5
+Text Label 5050 3450 2    50   ~ 0
+A6
+Text Label 5050 3550 2    50   ~ 0
+A7
+Text Label 5050 3650 2    50   ~ 0
+A8
+Text Label 5050 3750 2    50   ~ 0
+A9
+Text Label 5050 3850 2    50   ~ 0
+A10
+Text Label 5050 3950 2    50   ~ 0
+A11
+Text Label 5050 4050 2    50   ~ 0
+A12
+Text Label 5050 4150 2    50   ~ 0
+A13
+Text Label 5050 4250 2    50   ~ 0
+A14
+Text Label 5050 4350 2    50   ~ 0
+A15
+Text Label 5050 4450 2    50   ~ 0
+A16
+Text Label 5050 5050 2    50   ~ 0
+_CE
+$Comp
+L power:+5V #PWR015
+U 1 1 5FD8F061
+P 5050 4850
+F 0 "#PWR015" H 5050 4700 50  0001 C CNN
+F 1 "+5V" V 5065 4978 50  0000 L CNN
+F 2 "" H 5050 4850 50  0001 C CNN
+F 3 "" H 5050 4850 50  0001 C CNN
+	1    5050 4850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR016
+U 1 1 5FD8F5D6
+P 5050 5150
+F 0 "#PWR016" H 5050 4900 50  0001 C CNN
+F 1 "GND" V 5055 5022 50  0000 R CNN
+F 2 "" H 5050 5150 50  0001 C CNN
+F 3 "" H 5050 5150 50  0001 C CNN
+	1    5050 5150
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR018
+U 1 1 5FD8FDC1
+P 5650 5250
+F 0 "#PWR018" H 5650 5000 50  0001 C CNN
+F 1 "GND" H 5655 5077 50  0000 C CNN
+F 2 "" H 5650 5250 50  0001 C CNN
+F 3 "" H 5650 5250 50  0001 C CNN
+	1    5650 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR017
+U 1 1 5FD916B9
+P 5650 2750
+F 0 "#PWR017" H 5650 2600 50  0001 C CNN
+F 1 "+5V" H 5665 2923 50  0000 C CNN
+F 2 "" H 5650 2750 50  0001 C CNN
+F 3 "" H 5650 2750 50  0001 C CNN
+	1    5650 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Regulator_Linear:SPX3819M5-L-3-3 U3
+U 1 1 5FD99D88
+P 3150 1100
+F 0 "U3" H 3150 1442 50  0000 C CNN
+F 1 "SPX3819M5-L-3-3" H 3150 1351 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 3150 1425 50  0001 C CNN
+F 3 "https://www.exar.com/content/document.ashx?id=22106&languageid=1033&type=Datasheet&partnumber=SPX3819&filename=SPX3819.pdf&part=SPX3819" H 3150 1100 50  0001 C CNN
+	1    3150 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Regulator_Linear:XC6206PxxxMR U4
+U 1 1 5FD9BBC7
+P 4700 1000
+F 0 "U4" H 4700 1242 50  0000 C CNN
+F 1 "XC6206PxxxMR" H 4700 1151 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4700 1225 50  0001 C CIN
+F 3 "https://www.torexsemi.com/file/xc6206/XC6206.pdf" H 4700 1000 50  0001 C CNN
+	1    4700 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR06
+U 1 1 5FD9CE75
+P 5150 1000
+F 0 "#PWR06" H 5150 850 50  0001 C CNN
+F 1 "+3.3V" H 5165 1173 50  0000 C CNN
+F 2 "" H 5150 1000 50  0001 C CNN
+F 3 "" H 5150 1000 50  0001 C CNN
+	1    5150 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR04
+U 1 1 5FD9D686
+P 4250 1000
+F 0 "#PWR04" H 4250 850 50  0001 C CNN
+F 1 "+5V" H 4265 1173 50  0000 C CNN
+F 2 "" H 4250 1000 50  0001 C CNN
+F 3 "" H 4250 1000 50  0001 C CNN
+	1    4250 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 1000 4400 1000
+Wire Wire Line
+	5000 1000 5150 1000
+$Comp
+L power:GND #PWR05
+U 1 1 5FD9E746
+P 4700 1300
+F 0 "#PWR05" H 4700 1050 50  0001 C CNN
+F 1 "GND" H 4705 1127 50  0000 C CNN
+F 2 "" H 4700 1300 50  0001 C CNN
+F 3 "" H 4700 1300 50  0001 C CNN
+	1    4700 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 5FD9ED2A
+P 3150 1400
+F 0 "#PWR02" H 3150 1150 50  0001 C CNN
+F 1 "GND" H 3155 1227 50  0000 C CNN
+F 2 "" H 3150 1400 50  0001 C CNN
+F 3 "" H 3150 1400 50  0001 C CNN
+	1    3150 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C1
+U 1 1 5FD9F4AD
+P 2300 1100
+F 0 "C1" H 2392 1146 50  0000 L CNN
+F 1 "2.2uf" H 2392 1055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2300 1100 50  0001 C CNN
+F 3 "~" H 2300 1100 50  0001 C CNN
+	1    2300 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C2
+U 1 1 5FD9FDC4
+P 3850 1100
+F 0 "C2" H 3942 1146 50  0000 L CNN
+F 1 "2.2uf" H 3942 1055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3850 1100 50  0001 C CNN
+F 3 "~" H 3850 1100 50  0001 C CNN
+	1    3850 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 1000 2850 1100
+Wire Wire Line
+	2850 1000 2300 1000
+Connection ~ 2850 1000
+Wire Wire Line
+	2300 1200 2300 1400
+Wire Wire Line
+	2300 1400 3150 1400
+Connection ~ 3150 1400
+Wire Wire Line
+	3150 1400 3850 1400
+Wire Wire Line
+	3850 1400 3850 1200
+Wire Wire Line
+	3850 1000 3450 1000
+NoConn ~ 3450 1100
+$Comp
+L power:+5V #PWR01
+U 1 1 5FDA2C9B
+P 2300 1000
+F 0 "#PWR01" H 2300 850 50  0001 C CNN
+F 1 "+5V" H 2315 1173 50  0000 C CNN
+F 2 "" H 2300 1000 50  0001 C CNN
+F 3 "" H 2300 1000 50  0001 C CNN
+	1    2300 1000
+	1    0    0    -1  
+$EndComp
+Connection ~ 2300 1000
+$Comp
+L power:+3.3V #PWR03
+U 1 1 5FDA32F5
+P 3850 1000
+F 0 "#PWR03" H 3850 850 50  0001 C CNN
+F 1 "+3.3V" H 3865 1173 50  0000 C CNN
+F 2 "" H 3850 1000 50  0001 C CNN
+F 3 "" H 3850 1000 50  0001 C CNN
+	1    3850 1000
+	1    0    0    -1  
+$EndComp
+Connection ~ 3850 1000
+$Comp
+L Device:C_Small C3
+U 1 1 5FDA3912
+P 6000 1100
+F 0 "C3" H 6092 1146 50  0000 L CNN
+F 1 "100nF" H 6092 1055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6000 1100 50  0001 C CNN
+F 3 "~" H 6000 1100 50  0001 C CNN
+	1    6000 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C4
+U 1 1 5FDA5DFE
+P 6900 1100
+F 0 "C4" H 6992 1146 50  0000 L CNN
+F 1 "100nF" H 6992 1055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6900 1100 50  0001 C CNN
+F 3 "~" H 6900 1100 50  0001 C CNN
+	1    6900 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C5
+U 1 1 5FDA64DB
+P 7350 1100
+F 0 "C5" H 7442 1146 50  0000 L CNN
+F 1 "100nF" H 7442 1055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 7350 1100 50  0001 C CNN
+F 3 "~" H 7350 1100 50  0001 C CNN
+	1    7350 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C6
+U 1 1 5FDA6839
+P 7800 1100
+F 0 "C6" H 7892 1146 50  0000 L CNN
+F 1 "100nF" H 7892 1055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 7800 1100 50  0001 C CNN
+F 3 "~" H 7800 1100 50  0001 C CNN
+	1    7800 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR011
+U 1 1 5FDA6BD1
+P 6900 1000
+F 0 "#PWR011" H 6900 850 50  0001 C CNN
+F 1 "+3.3V" H 6915 1173 50  0000 C CNN
+F 2 "" H 6900 1000 50  0001 C CNN
+F 3 "" H 6900 1000 50  0001 C CNN
+	1    6900 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR08
+U 1 1 5FDA7297
+P 6000 1200
+F 0 "#PWR08" H 6000 950 50  0001 C CNN
+F 1 "GND" H 6005 1027 50  0000 C CNN
+F 2 "" H 6000 1200 50  0001 C CNN
+F 3 "" H 6000 1200 50  0001 C CNN
+	1    6000 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR012
+U 1 1 5FDA79F1
+P 6900 1200
+F 0 "#PWR012" H 6900 950 50  0001 C CNN
+F 1 "GND" H 6905 1027 50  0000 C CNN
+F 2 "" H 6900 1200 50  0001 C CNN
+F 3 "" H 6900 1200 50  0001 C CNN
+	1    6900 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR07
+U 1 1 5FDA8096
+P 6000 1000
+F 0 "#PWR07" H 6000 850 50  0001 C CNN
+F 1 "+5V" H 6015 1173 50  0000 C CNN
+F 2 "" H 6000 1000 50  0001 C CNN
+F 3 "" H 6000 1000 50  0001 C CNN
+	1    6000 1000
+	1    0    0    -1  
+$EndComp
+Text Notes 5950 750  0    50   ~ 0
+ROM
+Text Notes 7350 750  0    50   ~ 0
+CPLD
+Wire Wire Line
+	7800 1000 7350 1000
+Connection ~ 6900 1000
+Connection ~ 7350 1000
+Wire Wire Line
+	7350 1000 6900 1000
+Connection ~ 6900 1200
+Connection ~ 7350 1200
+Wire Wire Line
+	7350 1200 6900 1200
+Wire Wire Line
+	7800 1200 7350 1200
+Text Notes 4450 1650 0    50   ~ 0
+alternate footprint
+Text Label 5050 4650 2    50   ~ 0
+ROMA18
+Text Label 5050 4550 2    50   ~ 0
+ROMA17
+Text Label 3700 6150 2    50   ~ 0
+A17
+Text Label 3700 7100 2    50   ~ 0
+A18
+Text Label 4650 7100 0    50   ~ 0
+ROMA18
+Text Label 4650 6150 0    50   ~ 0
+ROMA17
+$Comp
+L power:GND #PWR020
+U 1 1 5FDB2035
+P 4300 6400
+F 0 "#PWR020" H 4300 6150 50  0001 C CNN
+F 1 "GND" H 4305 6227 50  0000 C CNN
+F 2 "" H 4300 6400 50  0001 C CNN
+F 3 "" H 4300 6400 50  0001 C CNN
+	1    4300 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR019
+U 1 1 5FDB30C8
+P 4300 5900
+F 0 "#PWR019" H 4300 5750 50  0001 C CNN
+F 1 "+5V" H 4315 6073 50  0000 C CNN
+F 2 "" H 4300 5900 50  0001 C CNN
+F 3 "" H 4300 5900 50  0001 C CNN
+	1    4300 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 6150 4050 6150
+$Comp
+L power:GND #PWR022
+U 1 1 5FDB9C29
+P 4300 7350
+F 0 "#PWR022" H 4300 7100 50  0001 C CNN
+F 1 "GND" H 4305 7177 50  0000 C CNN
+F 2 "" H 4300 7350 50  0001 C CNN
+F 3 "" H 4300 7350 50  0001 C CNN
+	1    4300 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR021
+U 1 1 5FDB9C33
+P 4300 6850
+F 0 "#PWR021" H 4300 6700 50  0001 C CNN
+F 1 "+5V" H 4315 7023 50  0000 C CNN
+F 2 "" H 4300 6850 50  0001 C CNN
+F 3 "" H 4300 6850 50  0001 C CNN
+	1    4300 6850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 7100 4050 7100
+Text Notes 5400 6200 0    50   ~ 0
+512k ROM : close JP1 1-4 and JP2 1-4\n2x256k ROMs : close JP1 1-4, choose with JP2 1-2 or 1-3\n4x128k ROMs : choose with JP1 and JP2 1-2 or 1-3
+$Comp
+L Sassa:Jumper_4_Open JP1
+U 1 1 5FDC9F0C
+P 4300 6150
+F 0 "JP1" V 4450 6350 50  0000 R CNN
+F 1 "128k" V 4150 6450 50  0000 R CNN
+F 2 "Sassa:Jumper_4_SPTT_P2.54mm_Edgemount" H 4300 6150 50  0001 C CNN
+F 3 "~" H 4300 6150 50  0001 C CNN
+	1    4300 6150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4450 6150 4650 6150
+$Comp
+L Sassa:Jumper_4_Open JP2
+U 1 1 5FDD2AFA
+P 4300 7100
+F 0 "JP2" V 4450 7300 50  0000 R CNN
+F 1 "256k" V 4150 7400 50  0000 R CNN
+F 2 "Sassa:Jumper_4_SPTT_P2.54mm_Edgemount" H 4300 7100 50  0001 C CNN
+F 3 "~" H 4300 7100 50  0001 C CNN
+	1    4300 7100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4450 7100 4650 7100
+$Comp
+L Mechanical:Fiducial FID2
+U 1 1 5FE170D3
+P 10700 6300
+F 0 "FID2" H 10785 6346 50  0000 L CNN
+F 1 "Logo" H 10785 6255 50  0000 L CNN
+F 2 "Sassa:PIC_Cassepanards_GS" H 10700 6300 50  0001 C CNN
+F 3 "~" H 10700 6300 50  0001 C CNN
+	1    10700 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID1
+U 1 1 5FE17E3E
+P 10250 6300
+F 0 "FID1" H 10335 6346 50  0000 L CNN
+F 1 "License" H 10335 6255 50  0000 L CNN
+F 2 "Sassa:CC_BY_NC_SA_square_silkscreen" H 10250 6300 50  0001 C CNN
+F 3 "~" H 10250 6300 50  0001 C CNN
+	1    10250 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5FE1890C
+P 9450 6300
+F 0 "H1" H 9550 6346 50  0000 L CNN
+F 1 "MountingHole" H 9550 6255 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 9450 6300 50  0001 C CNN
+F 3 "~" H 9450 6300 50  0001 C CNN
+	1    9450 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5FE198EF
+P 8750 6300
+F 0 "H2" H 8850 6346 50  0000 L CNN
+F 1 "MountingHole" H 8850 6255 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 8750 6300 50  0001 C CNN
+F 3 "~" H 8750 6300 50  0001 C CNN
+	1    8750 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 603C2D26
+P 9700 5450
+F 0 "#PWR?" H 9700 5300 50  0001 C CNN
+F 1 "+3.3V" V 9715 5578 50  0000 L CNN
+F 2 "" H 9700 5450 50  0001 C CNN
+F 3 "" H 9700 5450 50  0001 C CNN
+	1    9700 5450
+	0    -1   -1   0   
+$EndComp
+$EndSCHEMATC
