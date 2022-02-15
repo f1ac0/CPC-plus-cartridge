@@ -1,9 +1,10 @@
 # CPC-plus-cartridge
-This is the electronics part to make a CPC-plus cartridge. It uses a XC9536XL CPLD to implement the ACID chip using the equations published by octoate : https://www.octoate.de/articles/acid-verilog-code/
+In this repository you will find different PCB designs and code to make a CPC-plus cartridge. The ACID chip is implemented inside a XC9536XL CPLD using the equations published by octoate : https://www.octoate.de/articles/acid-verilog-code/
 
 Facts about this project :
-- ZIF socket for DIP32 ROM SST39SF040 or W29C040
-- jumpers for 128k, 256k or 512K cartridge ROMs
+- The ZIF version has a ZIF socket for DIP32 ROM SST39SF040 or W29C040, and is longer than standard cartridges
+- the PLCC version can be used with PLCC SST39SF040 ROMs and its size is more standard
+- They both have jumpers to select 128k, 256k or 512K cartridge ROM banks
 
 # Disclaimer
 This is a hobbyist project, it comes with no warranty and no support. Also remember that the Amstrad machines are about 30 years old and may fail because of such hardware expansions.
@@ -14,7 +15,7 @@ If you find it useful and want to reward me : I am always looking for Amiga/Amst
 
 # BOM
 - 1x XC9536XL CPLD
-- 1x DIP32 ROM SST39SF040 or W29C040 and appropriate socket
+- 1x DIP32/PLCC32 ROM SST39SF040 or W29C040 and appropriate socket
 - 1x 3.3v LDO, either SPX3819M5-L-3-3 or XC6206P332MR
 - 2x 1uF (or more) 0805 capacitors
 - 4x 100nF 0805 capacitors
