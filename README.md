@@ -35,6 +35,6 @@ Check the alignment between the cartridge pads and connector pads inside the CPC
 - Burn the ROM images and install the ROM. Do not burn .cpr files directly, they need to be first converted using for example "CPRTools".
 - Choose the ROM to use and its size using the jumpers :
   - 512k = both jumpers vertical
-  - 256k = "256" jumper vertical and "512" to select 0 or 1
+  - 256k = "128" jumper vertical and "256" to select 0 or 1
   - 128k = both jumpers to select 0 or 1
 - Enjoy
